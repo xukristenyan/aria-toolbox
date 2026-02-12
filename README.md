@@ -62,6 +62,8 @@ aria auth pair
 aria streaming start --interface wifi --device-ip YOUR_DEVICE_IP
 ```
 
+The inside LED faces the wearer and turns solid white when streaming begins.
+
 ### Examples
 
 The toolbox is organized into a clear hierarchy of classes, where each level abstracts the complexity of the one below it.
