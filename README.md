@@ -40,6 +40,7 @@ Make sure your computer and the glasses are on the **same network**.
 ```bash
 # pair the glasses
 uv run aria auth pair
+## It should show TWO GREEN LINES in your terminal. If not, unplug and replug your Aria cable into your computer. Then rerun this line.
 
 # open the Aria app on the phone, click "Approve"
 
@@ -47,6 +48,9 @@ uv run aria auth pair
 
 # start streaming
 uv run aria streaming start --interface wifi --device-ip YOUR_DEVICE_IP
+## It should show TWO YELLOW LINES in your terminal.
+## If you see RED, it fails to start streaming.
+## Check if your device and computer are under the same network. If this doesn't help, check if you enable the access to local device in network (your computer setting).
 ```
 
 #### Using conda
